@@ -1,0 +1,65 @@
+.errorContainer {
+    overflow: auto;
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+p{
+color: orange;
+order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+    position: relative;
+}
+
+.error {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+    width: 65%;
+    position: relative;
+}
+
+.error svg {
+    display: block;
+    width: 150%;
+    min-height: 10px;
+    fill: orange;
+}
+
+.links {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+.active {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: orange;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.active:hover {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+}
+
+
+
