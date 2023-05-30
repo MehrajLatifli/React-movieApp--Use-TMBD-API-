@@ -1,4 +1,4 @@
-cd my-project
+cd movieapi
 
 npm install
 
